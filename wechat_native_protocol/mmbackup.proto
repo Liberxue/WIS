@@ -56,13 +56,13 @@ message PacketAuthenticateResponse {
 }
 
 message BackupStartGeneralInfo {
-    required string DeviceID = 1; //唯一区别设备的id
-    required string DeviceName = 2; //设备名称
-    required string Model = 3; //设备型号
-    required string SystemName = 4; //系统名称
-    required string SystemVersion = 5; //系统版本
-    required uint32 WechatVersion = 6; //微信版本
-    required uint64 DeviceFreeSpace = 7; //设备剩余空间
+    required string DeviceID = 1; //  Device uniquely id
+    required string DeviceName = 2; 
+    required string Model = 3; // Device Type
+    required string SystemName = 4; 
+    required string SystemVersion = 5;
+    required uint32 WechatVersion = 6; 
+    required uint64 DeviceFreeSpace = 7;
 }
 
 message BackupStartRequest{
